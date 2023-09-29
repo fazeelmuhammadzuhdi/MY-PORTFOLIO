@@ -1,53 +1,62 @@
+import About from "./components/About";
+import Hero from "./components/Hero";
+
 function App() {
   return (
     <>
-      {/* Hero Section Start */}
-      <section id="home" className="pt-36">
-        <div className="container">
-          <div className="flex flex-wrap">
-            <div className="w-full self-center px-4">
-              <h1 className="text-base font-semibold text-primary">
-                Halo 👋, Saya{" "}
-                <span className="block font-bold text-4xl text-dark mt-1">
-                  Fazeel Muhammad Zuhdi
-                </span>
-              </h1>
-              <h2 className="font-medium text-slate-500 text-lg mb-5">
-                Fresh Graduated
-              </h2>
-              <p className="font-medium text-slate-500 mb-10 leading-relaxed">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Itaque, maxime.
-              </p>
-              <a
-                href=""
-                className="bg-primary text-base font-semibold text-white px-6 py-3 rounded-full hover:opacity-90 shadow-lg transition duration-300 ease-in-out"
-              >
-                Hubungi Saya
-              </a>
+      {/* Navbar Start*/}
+      <nav className=" top-0 bg-white w-full shadow">
+        <div className="container m-auto flex justify-between items-center text-secondary">
+          <h1 className="pl-8 py-4 text-xl font-bold text-primary">
+            Fazeel Muhammad Zuhdi
+          </h1>
+          <ul className="hidden md:flex items-center pr-10 text-base font-semibold cursor-pointer">
+            <li className="hover:bg-primary hover:text-white py-4 px-6">
+              <a href="">Home</a>
+            </li>
+            <li className="hover:bg-primary hover:text-white py-4 px-6">
+              Contact
+            </li>
+            <li className="hover:bg-primary hover:text-white py-4 px-6">
+              <a href="">About</a>
+            </li>
+            <li className="hover:bg-primary hover:text-white py-4 px-6">
+              Project
+            </li>
+          </ul>
+          <button className="block md:hidden py-3 px-4 mx-2 rounded focus:outline-none hover:bg-gray-200 group">
+            <div className="w-5 h-1 bg-gray-600 mb-1"></div>
+            <div className="w-5 h-1 bg-gray-600 mb-1"></div>
+            <div className="w-5 h-1 bg-gray-600 mb-1"></div>
+            <div className="absolute top-0 -right-full h-screen w-8/12 bg-white opacity-0 group-focus:right-0 group-focus:opacity-100 transition-all duration-300">
+              <ul className="flex flex-col items-center w-full text-base cursor-pointer pt-10">
+                <li className="hover:text-primary py-4 px-6 w-full">
+                  <a href="">Home</a>
+                </li>
+                <li className="hover:text-primary py-4 px-6 w-full">
+                  <a href="">Contact</a>
+                </li>
+                <li className="hover:text-primary py-4 px-6 w-full">
+                  <a href="">About</a>
+                </li>
+                <li className="hover:text-primary py-4 px-6 w-full">
+                  <a href="">Project</a>
+                </li>
+              </ul>
             </div>
-            <div className="w-full self-end px-4">
-              <div className="mt-10">
-                <img
-                  src="/public/profile.png"
-                  alt=""
-                  className="max-w-full mx-auto"
-                />
-                <span>
-                  <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-                    <path
-                      fill="#FF0066"
-                      d="M48.9,-12.1C56.2,6.6,50.1,33.5,35.2,43C20.4,52.5,-3,44.5,-18.5,31.8C-34,19,-41.4,1.6,-37,-13.2C-32.6,-27.9,-16.3,-39.9,2.3,-40.7C20.8,-41.4,41.6,-30.8,48.9,-12.1Z"
-                      transform="translate(100 100)"
-                    />
-                  </svg>
-                </span>
-              </div>
-            </div>
-          </div>
+          </button>
         </div>
-      </section>
+      </nav>
+
+      {/* Navbar End */}
+
+      {/* Hero Section Start */}
+      <Hero />
       {/* Hero Section End */}
+
+      {/* About Start*/}
+      <About />
+      {/* About End */}
     </>
   );
 }
