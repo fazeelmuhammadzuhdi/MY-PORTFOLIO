@@ -1,41 +1,51 @@
 const About = () => {
   return (
-    <div>
+    <>
       <section id="about" className="pt-12 lg:pt-36 pb-32">
         <div className="container">
           <div className="flex flex-wrap">
-            <div className="w-full px-4 mb-10 lg:w-1/2">
-              <h4 className="font-bold text-primary uppercase text-lg lg:text-3xl">
+            <div
+              className="w-full px-4 mb-10 lg:w-1/2"
+              data-aos="fade-down"
+              data-aos-offset="300"
+              data-aos-duration="300"
+              data-aos-easing="ease-in-sine"
+            >
+              <h4 className="font-bold text-primary uppercase mb-2 text-lg lg:text-3xl">
                 Tentang Saya
               </h4>
-              <h2 className="font-bold text-dark text-3xl mb-5 max-w-md lg:text-4xl">
-                Yuk, Belajar
+              <h2 className="font-bold text-dark text-3xl mb-2 max-w-md lg:text-4xl">
+                Hello, I'm Fazeel!
               </h2>
-              <p className="font-medium text-base text-secondary max-w-xl">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus,
-                labore sunt. Modi, eaque excepturi totam illum a distinctio sunt
-                esse deleniti quaerat voluptatem mollitia delectus quos enim nam
-                impedit ipsa alias ducimus ullam? Esse perspiciatis dolor, iure
-                maiores tempora laudantium distinctio quos cumque enim
-                consequuntur delectus libero incidunt asperiores perferendis
-                itaque.
+              <p className="font-medium text-secondary text-lg max-w-3xl">
+                Saya memiliki tekad yang kuat untuk terus mengembangkan
+                pengetahuan dan keterampilan saya dalam pengembangan web,
+                sekaligus senantiasa mempelajari teknologi yang terbaru.
+                Keahlian saya terletak pada pengembangan aplikasi web, dan saya
+                selalu berupaya memberikan kode dengan mutu yang tinggi.
               </p>
             </div>
-            <div className="w-full px-4 lg:w-1/2">
-              <h1 className="font-bold text-2xl mb-3 lg:pt-11">
-                Mari Berteman
+            <div
+              className="w-full px-4 lg:w-1/2"
+              data-aos="fade-down"
+              data-aos-offset="300"
+              data-aos-duration="700"
+              data-aos-easing="ease-in-sine"
+            >
+              <h1 className="font-bold text-2xl mb-3 lg:pt-12">
+                Tetap Terkoneksi di Media Sosial
               </h1>
-              <p className="font-medium text-base text-secondary mb-5">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Architecto recusandae molestiae fugiat perferendis
-                exercitationem vero nobis at magni!
+              <p className="font-medium text-base text-secondary mb-3 lg:text-lg">
+                Jangan Lepaskan Peluang Ini untuk Tetap Terhubung Lebih Dekat.
+                Mari, Jangan Ragukan Dirimu untuk Mengikuti Saya di Berbagai
+                Platform Media Sosial Lainnya!
               </p>
 
               <div className="flex items-center">
                 {/* instagram */}
                 <a
                   href="https://www.instagram.com/fazeelmuhammd"
-                  className="w-9 h-9 rounded-full border border-slate-300 mr-3 flex justify-center items-center hover:border-primary hover:bg-primary hover:text-white"
+                  className="w-12 h-12 rounded-full border border-slate-300 mr-3 flex justify-center items-center hover:border-primary hover:bg-primary hover:text-white"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -54,7 +64,7 @@ const About = () => {
                 {/* linkedin */}
                 <a
                   href="https://www.linkedin.com/in/fazeel-muhammad-zuhdi"
-                  className="w-9 h-9 rounded-full border border-slate-300 mr-3 flex justify-center items-center hover:border-primary hover:bg-primary hover:text-white"
+                  className="w-12 h-12 rounded-full border border-slate-300 mr-3 flex justify-center items-center hover:border-primary hover:bg-primary hover:text-white"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -73,7 +83,7 @@ const About = () => {
                 {/* github */}
                 <a
                   href="https://github.com/fazeelmuhammadzuhdi"
-                  className="w-9 h-9 rounded-full border border-slate-300 mr-3 flex justify-center items-center hover:border-primary hover:bg-primary hover:text-white"
+                  className="w-12 h-12 rounded-full border border-slate-300 mr-3 flex justify-center items-center hover:border-primary hover:bg-primary hover:text-white"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -93,7 +103,7 @@ const About = () => {
           </div>
         </div>
       </section>
-    </div>
+    </>
   );
 };
 
