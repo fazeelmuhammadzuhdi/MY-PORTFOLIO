@@ -11,24 +11,27 @@ const Hero = () => {
               data-aos-duration="500"
               data-aos-easing="ease-in-sine"
             >
-              <h1 className="text-base font-semibold text-primary lg:text-2xl">
+              <h1 className="text-base font-semibold text-primary mb-2 lg:text-2xl">
                 Halo 👋, Saya{" "}
                 <span className="block font-bold text-4xl text-dark mt-1 lg:text-5xl">
                   Fazeel Muhammad Zuhdi
                 </span>
               </h1>
-              <h2 className="font-medium text-secondary text-lg mb-5 lg:text-xl mt-2">
-                Fresh Graduategi
-              </h2>
-              {/* <p className="font-medium text-secondary mb-10 leading-relaxed">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Itaque, maxime.
-              </p> */}
+              {/* <h2 className="font-medium text-secondary text-lg mb-5 lg:text-xl mt-2">
+                Fresh Graduate
+              </h2> */}
+              <p className="font-medium text-secondary mb-10 leading-relaxed ">
+                Lulusan baru S1 Sistem Informasi STMIK Jayanusa. Saya memiliki
+                pemahaman yang kuat dalam pengembangan web dan pemrograman. Saya
+                memiliki hasrat untuk terus belajar dan memperdalam ilmu
+                pengetahuan saya di dunia IT yang terus berkembang
+              </p>
               <a
-                href=""
+                href="/CV.pdf"
                 className="bg-primary text-base font-semibold text-white px-6 py-3 rounded-full hover:opacity-90 shadow-lg transition duration-300 ease-in-out"
+                download
               >
-                Hubungi Saya
+                Download CV
               </a>
             </div>
 
