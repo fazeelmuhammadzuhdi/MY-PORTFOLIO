@@ -5,7 +5,7 @@ const Hero = () => {
         <div className="container">
           <div className="flex flex-wrap">
             <div
-              className="w-full self-center px-4 lg:w-1/2"
+              className="w-full self-center px-4 lg:w-1/2 Lg"
               data-aos="fade-down"
               data-aos-offset="300"
               data-aos-duration="500"

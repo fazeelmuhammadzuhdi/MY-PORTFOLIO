@@ -2,7 +2,7 @@ const Project = () => {
   return (
     <div>
       <section id="projects" className="lg:pt-16 pb-16 ">
-        <div className="container">
+        <div className="container overflow-hidden">
           <div className="w-full px-4">
             <div className="container md:mx-auto p-5">
               <div

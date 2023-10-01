@@ -7,8 +7,6 @@ import Skills from "./components/Skills";
 function App() {
   return (
     <>
-      
-
       {/* Navbar Start*/}
       <Navbar />
       {/* Navbar End */}
