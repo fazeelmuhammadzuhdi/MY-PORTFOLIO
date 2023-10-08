@@ -94,7 +94,7 @@ const Project = () => {
 
                   <a
                     href="https://youtu.be/9pXG3Q5zUBs"
-                    className="text-xs md:text-base font-semibold py-1 px-2 border border-black rounded-md float-right hover:text-white hover:bg-red-500"
+                    className="text-xs md:text-base font-semibold py-1 px-2 mx-2 border border-black rounded-md float-right hover:text-white hover:bg-red-500"
                     target="blank"
                   >
                     Demo Youtube
