@@ -91,6 +91,22 @@ const Project = () => {
                   >
                     Source Code
                   </a>
+
+                  <a
+                    href="https://youtu.be/9pXG3Q5zUBs"
+                    className="text-xs md:text-base font-semibold py-1 px-2 border border-black rounded-md float-right hover:text-white hover:bg-red-500"
+                    target="blank"
+                  >
+                    Demo Youtube
+                  </a>
+
+                  <a
+                    href="https://ppdbsmppesisirselatan.cloud"
+                    className="text-xs md:text-base font-semibold py-1 px-2 border border-black rounded-md float-right hover:text-white hover:bg-blue-500"
+                    target="blank"
+                  >
+                    Preview
+                  </a>
                 </div>
 
                 <div
